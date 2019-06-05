@@ -7,7 +7,7 @@ Default Host - localhost:8080
 
 #API
 Create new wallet:
-1) POST /wallet
+1) POST /wallet \
 RequestBody:
 ```
 {
@@ -19,7 +19,7 @@ Get wallet by id:
 2) GET /wallet/{id}
 
 Deposit to wallet:
-3) POST /deposit
+3) POST /deposit \
 RequestBody:
 ```
 {
@@ -29,7 +29,7 @@ RequestBody:
 ```
 
 Withdraw from wallet:
-4) POST /withdraw
+4) POST /withdraw \
 RequestBody:
 ```
 {
@@ -39,7 +39,7 @@ RequestBody:
 ```
 
 Transfer from wallet to another:
-5) POST /transfer
+5) POST /transfer \
 RequestBody:
 ```
 {
